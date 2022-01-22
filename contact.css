@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    overflow-x: hidden;
+    /* remove horizontal scrollbar  */
+}
+.bg{
+    width: 100vw;
+    background-image: url("/chotekadam/logo/contact.jpg");
+    background-size: cover;
+    background-position:0px 777px;
+    height:400px;
+    padding:136px 382px;
+    position: absolute;
+    box-sizing: border-box;
+}
+/* @media screen and (max-width:900px){
+    .bg{
+        width:50vw;
+    }
+     */
+.upper{
+    width:100vw;
+    height:400px;
+    background: hsla(339, 100%, 55%, 1);
+    box-sizing: border-box;
+
+
+background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
+    position: absolute;
+    opacity: 0.5;
+}
+.text{
+    width: 100vw;
+    height:400px;
+    text-align: right;
+    font-size:50px;
+    color: white;
+    font-weight: 650;
+    font-family:Tahoma, Verdana, sans-serif;
+    font-style: oblique;
+    position: absolute;
+    padding: 200px 400px;
+    box-sizing: border-box;
+}
+.navbar{
+    display:block;
+    color: white;
+    font-size: larger;
+    width: 100vw;
+    position: relative;
+    padding: 22px 0px;
+}
+.hov{
+    font-weight: 420;
+    list-style: none;
+    display: inline;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+.hov a{
+    text-decoration: none;
+    color:white ;
+}
+.hov a:hover{
+    font-weight: 500;
+    color:#883857;
+    cursor: pointer;
+}
+#float1{
+    float: left
+}
+#float2{
+    float: right;
+    margin-right:7vw;
+    word-spacing: 15px;
+}
+.roll-in{
+    position: absolute;
+    height: 100px;
+    width:80vw;
+    margin:auto;
+    background: hsla(48, 78%, 82%, 1);
+
+    background: linear--gradient(0deg, hsla(48, 78%, 82%, 1) 20%, hsla(340, 87%, 59%, 1) 80%);
+    
+    background: -moz-linear-gradient(0deg, hsla(48, 78%, 82%, 1) 20%, hsla(340, 87%, 59%, 1) 80%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(48, 78%, 82%, 1) 20%, hsla(340, 87%, 59%, 1) 80%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F5E6AD", endColorstr="#F13C77", GradientType=1 );
+    top:376px;
+    left:126px;
+    border: none;
+    text-align: center;
+    padding:38px 0px;
+    color: white;
+    font-family: monospace;
+    font-size: xx-large;
+}
+.help{
+    position:  absolute;
+    top:510px;
+    margin-left:145px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+
+}
+#a{
+    font-size:xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#b{
+    font-size:larger;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: underline;
+}
+#c{
+    font-size: larger;
+    font-weight: 400;
+    text-decoration: underline;
+}
+#d{
+    font-size: x-large;
+    font-family: cursive;
+}
+#e{
+    font-size: larger;
+    font-weight: 400;
+    text-decoration: underline;
+}
+#f{
+    font-family: monospace;
+}
+#g{
+    font-size: larger;
+    text-decoration: underline;
+    font-weight: 600;
+}
+#h{
+    font-family: monospace;
+    
+}
+#blue{
+    color:rgba(0, 102, 255, 0.753);
+}
+.form-class{
+    position:  absolute;
+    top:510px;
+    left:730px;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+}
+#label{
+    width: 35vw;
+    color: rgba(0, 0, 0, 0.404);
+    font-weight: 650;
+}
+.foot-set{
+    position: relative;
+    top:1005px;
+    width: 100vw;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: teal;
+}

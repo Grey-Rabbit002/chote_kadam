@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.people{
+	font-family:Architects Daughter;;
+}
+.card>.card-img{
+	border:10 px solid red;
+}
+}
+/*.vid>iframe{
+	display: block;
+	margin: auto;
+}*/
+.progress{
+	background-color:greenyellow;
+	height: 1vh;
+}
+/*.sp{
+	background-color:lime;
+	height: 2vh;*/
+
+}
+/*.carousel-inner >.item>img{
+	height: 35vh;
+
+}
+.carousel-inner >.carousel-item >.change{
+	align-items:right;
+
+}
+*/
+/*.carousel-inner >.carousel-item >h5: hover{
+
+	transition-duration: 3s;
+	transition-property: height;
+	transition-timing-function: ease-out;
+	animation-play-state:running;
+	/*for auto animation*/
+}
+.navbar>.navbar-collapse>ul>li>a:hover
+{
+	background-color: red;
+}
+/*.card-group>.card>{
+	font-style: oblique,italic;
+}*/
